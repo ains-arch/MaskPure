@@ -10,7 +10,7 @@ import pandas as pd
 import random
 from transformers import pipeline, BertTokenizer, BertForMaskedLM
 
-random.seed(hash('Harrison Gietz'))
+random.seed(hash('Ainslee Archibald'))
 
 def mask_random_tokens(text, tokenizer, mask_pct = 0.2, n = 5, pos_weights=None, return_separated = False):
     """ 
